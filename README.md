@@ -11,4 +11,5 @@ to install PyPDF2
 
 ####Silly problem faced:####
 
-*       convert
+*       convert the vector to array
+                np.asarray(n)
