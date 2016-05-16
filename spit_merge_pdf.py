@@ -41,15 +41,14 @@ def merge_pdf(pdf1,pdf2):
     pdfOutputFile.close()
 
 
+#uncomment the merge part to implement that
 
-
-#split pdf based on the array
+#split pdf based on the array 
 #pdf = open('check.pdf', 'rb')#pdf to process
 #n=[2,3,5]
 #sepreate_pages_in_array(n,pdf)
 
 #merge pdf
-
 pdf1 = open('check1.pdf', 'rb')#pdf to process
 pdf2 = open('check2.pdf', 'rb')#pdf to process
 merge_pdf(pdf1,pdf2)
